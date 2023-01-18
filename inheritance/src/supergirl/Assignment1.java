@@ -1,4 +1,4 @@
-package supergirl;
+package supergirl;//Done in method
 
 public class Assignment1 
 {

@@ -7,9 +7,11 @@ int b=60;
 
 public void added()
 {
+	super.add();
 	int sum=a+b;
 	System.out.println("sum="+sum);
 	System.out.println(super.a);
+	
 }
 	public static void main(String[] args)
 	
@@ -17,7 +19,7 @@ public void added()
 		SuperMethods ob=new SuperMethods();
 		
 				ob.added();
-				ob.add();
+				
 				
 		
 

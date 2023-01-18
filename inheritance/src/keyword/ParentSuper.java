@@ -4,6 +4,6 @@ public class ParentSuper
 {
 public ParentSuper()
 {
-	System.out.println("Today is Tuesday");
+	System.out.println();
 }
 }
