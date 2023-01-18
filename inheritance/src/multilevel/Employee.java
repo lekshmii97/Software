@@ -2,9 +2,9 @@ package multilevel;
 
 public class Employee {
 	
-	int pay;
-	int ded;
-	int bonus;
+	 int pay;
+	 int ded;
+	 int bonus;
 	public void add()
 	{
 		pay=50000;
