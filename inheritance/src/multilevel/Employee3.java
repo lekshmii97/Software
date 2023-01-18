@@ -2,21 +2,28 @@ package multilevel;
 
 public class Employee3 extends Employee2
 {
-int total;
+  int totalsalary;
 
-public void prime()
+public void primer()
 {
-System.out.println(super.ded);
-System.out.println(super.bonus);
-System.out.println(super.hra);
-super.print();
+	super.print();
+	
+	
 
-	total=pay+hra+bonus-ded-pf;
+}
+public void given()
+{
+
+totalsalary=pay+hra-pf-ded+bonus;
+System.out.println("totalsalary="+totalsalary);	
 	
 }
-public static void main()
+public static void main(String[] args)
 {
 	Employee3 sc=new Employee3();
-	sc.prime();
+	sc.primer();
+	
+
+	sc.given();
 }
 }
