@@ -7,6 +7,7 @@ int discount;
 public void discount()
 {
 	discount=(price*40)/100;
+	System.out.println("discount onseason="+discount);
 }
 
 }

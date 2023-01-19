@@ -7,6 +7,7 @@ public class OffSeason extends OnSeason {
 	{
 		super.discount();
 		disc=(price*15)/100;
+		System.out.println("discount offseason="+disc);
 	}
 
 	public static void main(String[] args) {
