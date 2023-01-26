@@ -1,6 +1,7 @@
 package multilevel;
 
-public class Employee {
+public class Employee
+{
 	
 	 int pay;
 	 int ded;
