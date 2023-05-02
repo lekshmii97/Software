@@ -36,7 +36,7 @@ public class Excel11 {
 	    Row r=sh.getRow(a);
 	    Cell c=r.getCell(b);
 	    int x=(int) c.getNumericCellValue();
-	    return String.valueOf(x); //both string values and integer values so typecasting is done here
+	    return String.valueOf(x); //both string values and integer values so type casting is done here
 	}
 
 }
